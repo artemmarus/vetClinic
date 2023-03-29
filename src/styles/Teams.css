@@ -1,0 +1,47 @@
+
+.team {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.team-bx {
+    background: rgba(193, 219, 244, 0.4);
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
+
+.team h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team p {
+    color: #081115;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 45px 0;
+}
+
+.team-slider {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-slider .item img {
+    width: 0%;
+    margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}

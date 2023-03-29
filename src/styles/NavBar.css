@@ -1,0 +1,191 @@
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    max-height: 85px;
+    top: 0px;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+    background-color: rgb(246, 248, 250);
+}
+
+
+.nav-logo {
+    max-width: 200px;
+}
+
+nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: rgba(246, 248, 250, 0.9);
+}
+
+nav.navbar a.navbar-brand {
+    width: 9%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    padding: 0 14px;
+    font-size: 15px;
+    opacity: 0.75;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover{
+    opacity: 1;
+    transition: 0.32s ease-in-out;
+    border-bottom: 2px solid rgb(31, 50, 113);
+    color: rgb(31, 50, 113);
+}
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+    opacity: 1;
+    font-size: 17px;
+    transition: 0.12s ease-in-out;
+    border-bottom: 2px solid rgb(48, 89, 221);
+    color: rgb(48, 89, 221);
+}
+
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text button {
+    font-weight: 600;
+    color: rgb(68, 72, 74);
+    border: 1px solid rgb(15, 122, 175);
+    border-radius: 10px;
+    padding: 12px 12px;
+    font-size: 18px;
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-text button span {
+    z-index: 1;
+}
+
+.navbar-text button::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(144, 206, 254, 0.763);
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.32s ease-in-out;
+}
+
+.navbar-text button:hover {
+    color: #e9fff4;
+    background-color: rgba(21, 109, 176, 0.892);
+    border-color: rgb(46, 64, 121);
+}
+
+.navbar-text button:hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+nav.navbar .navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none;
+    position: relative;
+    border-bottom: 2px solid rgb(232, 251, 255);
+    transition: all 300ms linear;
+    top: -2px;
+}
+
+nav.navbar .navbar-toggler-icon:focus {
+    border-bottom: 2px solid rgb(209, 240, 255);
+}
+
+nav.navbar .navbar-toggler-icon:after,
+nav.navbar .navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 2px;
+    background-color: rgb(209, 240, 255);
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: 2;
+    transition: all 300ms linear;
+}
+
+nav.navbar .navbar-toggler-icon:after {
+    top: 8px;
+}
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg);
+    background-color: rgb(209, 240, 255);
+    height: 2px;
+}
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg);
+    background-color: rgb(209, 240, 255);
+    height: 2px;
+}
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.social-icon a {
+    width: 45px;
+    height: 45px;
+    background: rgba(226, 244, 252, 0.1);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1.9px solid rgba(49, 79, 117, 0.5);
+}
+
+.social-icon a::before {
+    content: "";
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: rgba(25, 150, 246, 0.426);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.32s ease-in-out;
+}
+
+.social-icon a:hover::before {
+    transform: scale(1);
+}
+
+.social-icon a img {
+    width: 60%;
+    z-index: 1;
+    transition: 0.32s ease-in-out;
+}

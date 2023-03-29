@@ -1,0 +1,40 @@
+.doctor_card {
+    height: 346px;
+    width: 306px;
+    border: 2px solid rgb(152, 151, 151);
+    border-right: 3px solid rgb(133, 133, 133);
+    border-bottom: 3px solid rgb(133, 133, 133);
+    border-radius: 19px;
+    margin: 0px;
+    align-items: center;
+}
+
+.doctor_img img {
+    height: 340px;
+    width: 300px;
+    margin: 0px;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: brightness(110%), contrast(95%) saturate(90%);
+}
+.desc {
+    position: relative;
+    height: 90px;
+    line-height: normal;
+    background-color: rgba(245, 251, 255, 0.8);
+    margin: 0 5px;
+    padding: 5px;
+    bottom: 95px;
+    border-radius: 10px;
+
+}
+.desc h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.desc p{
+    margin: 0px;
+    font-size: 18px;
+}

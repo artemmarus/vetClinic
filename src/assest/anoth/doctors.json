@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "https://artvet.kiev.ua/storage/uploads//смирнов.jpg",
+        "name": "Смірнов Ілля Олексійович",
+        "speciality": "Лікар візуальної діагностики",
+        "description": "sannsibavb"
+    },
+    {
+        "id": 2,
+        "img": "https://artvet.kiev.ua/storage/uploads//Медо.jpg",
+        "name": "Медовнік Тетяна Юріївна",
+        "speciality": "Терапевт",
+        "description": "sannsibavb"
+    },
+    {
+        "id": 3,
+        "img": "https://artvet.kiev.ua/storage/uploads//Герчева.jpg",
+        "name": "Герчева Альона Вікторівна",
+        "speciality": "Адміністратор",
+        "description": "sannsibavb"
+    },
+    {
+        "id": 4,
+        "img": "https://artvet.kiev.ua/storage/uploads//Konovalova.jpg",
+        "name": "Коновалова Аліна Олександрівна",
+        "speciality": "Ратолог, хірург",
+        "description": "sannsibavb"
+    },
+    {
+        "id": 5,
+        "img": "https://artvet.kiev.ua/storage/uploads//Лебидь.jpg",
+        "name": "Лебідь Денис Максимович",
+        "speciality": "Терапевт",
+        "description": "sannsibavb"
+    },
+    {
+        "id": 6,
+        "img": "https://zoolux.vet/doctor/big/photo/205",
+        "name": "Полєтаєва Олена Олександрівна",
+        "speciality": "Дерматолог, лаборант",
+        "description": "sannsibavb"
+    }
+]
